@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Pareto Vertical"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8f2feb50-4af0-4d2e-a6b3-5259963088ad"
+  }
+}

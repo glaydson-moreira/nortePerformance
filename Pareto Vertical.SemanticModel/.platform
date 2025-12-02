@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Pareto Vertical"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "af57bf64-d9fa-4adc-b4a5-d241b0bb5b47"
+  }
+}
