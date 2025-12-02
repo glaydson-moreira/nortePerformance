@@ -78,20 +78,6 @@
         "disabled": false,
         "items": [
           {
-            "name": "deneb7E15AEF80B9E4D4F8E12924291ECE89A.pbiviz.json",
-            "path": "deneb7E15AEF80B9E4D4F8E12924291ECE89A.pbiviz.json",
-            "type": 5
-          }
-        ],
-        "name": "deneb7E15AEF80B9E4D4F8E12924291ECE89A",
-        "type": 0
-      }
-    },
-    {
-      "resourcePackage": {
-        "disabled": false,
-        "items": [
-          {
             "name": "STANDALONEdeneb7E15AEF80B9E4D4F8E12924291ECE89A.pbiviz.json",
             "path": "STANDALONEdeneb7E15AEF80B9E4D4F8E12924291ECE89A.pbiviz.json",
             "type": 5

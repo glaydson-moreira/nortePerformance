@@ -1,0 +1,7251 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Entities": {
+			    "d_calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d calendario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dCalendario": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.data1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "Hierarchy": "Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.data1.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "Hierarchy": "Data",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.data1.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "Hierarchy": "Data",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.data1.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "Hierarchy": "Data",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.datas_com_venda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Datas com Venda"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "datas com venda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data com venda": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.id_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Id Data"
+			        }
+			      },
+			      "SemanticType": "Time",
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "id information": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id fact": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id info": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id statistic": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id document": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "id figure": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "id record": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "identification data": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity data": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier data": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.mes_abreviado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Mes Abreviado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes abreviado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me abreviado": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Mês": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.mes_ano_classificação": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Mes Ano Classificação"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes ano classificação": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me ano classificação": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.mesano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Mes-Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes-ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me-ano": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "mes ano": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "me ano": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.nome_do_mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Nome do Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome do mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Mês": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.semestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Semestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "semestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dClientes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d cliente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dClientes": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_cliente.cidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dClientes",
+			          "ConceptualProperty": "Cidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_cliente.cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dClientes",
+			          "ConceptualProperty": "Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cliente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_cliente.id_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dClientes",
+			          "ConceptualProperty": "Id Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id cliente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification cliente": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity cliente": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier cliente": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential cliente": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_cliente.uf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dClientes",
+			          "ConceptualProperty": "UF"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "uf": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_pagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dPagamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d pagamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dPagamento": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_pagamento.forma_de_pagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dPagamento",
+			          "ConceptualProperty": "Forma de Pagamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "forma de pagamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Pagamento": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "d_pagamento.id_pagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dPagamento",
+			          "ConceptualProperty": "Id Pagamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id pagamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification pagamento": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity pagamento": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier pagamento": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential pagamento": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dProdutos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d produto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dProdutos": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_produto.categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dProdutos",
+			          "ConceptualProperty": "Categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_produto.id_produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dProdutos",
+			          "ConceptualProperty": "Id Produto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id produto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification produto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity produto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier produto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential produto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_produto.marca": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dProdutos",
+			          "ConceptualProperty": "Marca"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "marca": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_produto.produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dProdutos",
+			          "ConceptualProperty": "Produto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "produto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_produto.subcategoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dProdutos",
+			          "ConceptualProperty": "Subcategoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subcategoria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dStatus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dStatus": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "d category": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "d importance": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "d prestige": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "d prominence": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "d condition": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "d class": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "d grade": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "d level": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "d position": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "d rank": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "d_status.id_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dStatus",
+			          "ConceptualProperty": "Id Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id category": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id importance": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id prestige": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id prominence": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id condition": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "id class": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "id grade": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "id level": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "id position": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "id rank": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "d_status.status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dStatus",
+			          "ConceptualProperty": "Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "level": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "d_unidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUnidades"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d unidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dUnidades": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_unidade.id_unidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUnidades",
+			          "ConceptualProperty": "Id Unidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id unidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification unidade": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity unidade": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier unidade": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential unidade": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_unidade.unidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dUnidades",
+			          "ConceptualProperty": "Unidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Filial": {
+			            "Source": {
+			              "Agent": "PowerBI.VisualColumnRename",
+			              "Type": "External"
+			            },
+			            "State": "Suggested",
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "d_vendedore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dVendedores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d vendedore": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dVendedores": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_vendedore.URL_foto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dVendedores",
+			          "ConceptualProperty": "URL Foto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "URL foto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "website foto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "site foto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "web address foto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.471
+			          }
+			        }
+			      ]
+			    },
+			    "d_vendedore.URL_foto_corpo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dVendedores",
+			          "ConceptualProperty": "URL Foto Corpo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "URL foto corpo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "website foto corpo": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "site foto corpo": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "web address foto corpo": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.484
+			          }
+			        }
+			      ]
+			    },
+			    "d_vendedore.gerente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dVendedores",
+			          "ConceptualProperty": "Gerente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gerente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_vendedore.id_vendedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dVendedores",
+			          "ConceptualProperty": "Id Vendedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id vendedor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification vendedor": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity vendedor": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier vendedor": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential vendedor": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_vendedore.vendedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dVendedores",
+			          "ConceptualProperty": "Vendedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vendedor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "f_meta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fMetas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "f meta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fMetas": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_meta.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fMetas",
+			          "ConceptualProperty": "Data"
+			        }
+			      },
+			      "SemanticType": "Time",
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "f_meta.id_vendedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fMetas",
+			          "ConceptualProperty": "Id Vendedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id vendedor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification vendedor": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity vendedor": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier vendedor": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential vendedor": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "Visibility": {
+			        "Value": "Hidden"
+			      }
+			    },
+			    "f_meta.valor_meta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fMetas",
+			          "ConceptualProperty": "Valor Meta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor meta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "f_venda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "f venda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fVendas": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "venda": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "f_venda.comissão_unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Comissão Unit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "comissão unit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "comissão module": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "comissão element": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "comissão entity": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "comissão group": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "comissão component": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "comissão constituent": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "comissão item": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "comissão part": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "comissão section": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "f_venda.custo_unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Custo Unit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo unit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "custo module": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "custo element": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "custo entity": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "custo group": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "custo component": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "custo constituent": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "custo item": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "custo part": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "custo section": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "f_venda.data_envio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Data Envio"
+			        }
+			      },
+			      "SemanticType": "Time",
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data envio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information envio": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact envio": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info envio": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic envio": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document envio": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure envio": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record envio": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "f_venda.data_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Data Pedido"
+			        }
+			      },
+			      "SemanticType": "Time",
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data pedido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information pedido": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact pedido": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info pedido": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic pedido": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document pedido": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure pedido": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record pedido": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "f_venda.despesa_unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Despesa Unit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "despesa unit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "despesa module": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "despesa element": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "despesa entity": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "despesa group": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "despesa component": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "despesa constituent": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "despesa item": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "despesa part": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "despesa section": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "f_venda.id_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Id Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id cliente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification cliente": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity cliente": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier cliente": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential cliente": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "Visibility": {
+			        "Value": "Hidden"
+			      }
+			    },
+			    "f_venda.id_pgto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Id Pgto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id pgto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification pgto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity pgto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier pgto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential pgto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "Visibility": {
+			        "Value": "Hidden"
+			      }
+			    },
+			    "f_venda.id_produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Id Produto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id produto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification produto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity produto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier produto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential produto": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "Visibility": {
+			        "Value": "Hidden"
+			      }
+			    },
+			    "f_venda.id_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Id Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id category": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id importance": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id prestige": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id prominence": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "id condition": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "id class": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "id grade": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "id level": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "id position": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "id rank": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "Visibility": {
+			        "Value": "Hidden"
+			      }
+			    },
+			    "f_venda.id_unidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Id Unidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id unidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification unidade": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity unidade": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier unidade": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential unidade": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "Visibility": {
+			        "Value": "Hidden"
+			      }
+			    },
+			    "f_venda.id_vendedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Id Vendedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id vendedor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification vendedor": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity vendedor": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier vendedor": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential vendedor": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "Visibility": {
+			        "Value": "Hidden"
+			      }
+			    },
+			    "f_venda.impostos_unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Impostos Unit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "impostos unit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "imposto unit": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "imposto module": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "imposto element": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "imposto entity": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "imposto group": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "imposto component": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "imposto constituent": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "imposto item": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "imposto part": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "imposto section": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "f_venda.num_venda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Num Venda"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "num venda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "number venda": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "f_venda.qtde": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Qtde"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtde": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "f_venda.valor_unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fVendas",
+			          "ConceptualProperty": "Valor Unit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor unit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "valor module": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "valor element": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "valor entity": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "module": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "element": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "entity": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "valor group": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "valor component": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "valor constituent": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "valor item": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_Temporais_medidas_temporais.faturamento_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Faturamento LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento LY": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_Temporais_medidas_temporais.faturamento_YoY_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Faturamento YoY %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento YoY %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "faturamento yoy percentage": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "faturamento yoy pct": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_Temporais_medidas_temporais.faturamento_acumulado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Faturamento Acumulado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento acumulado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_Temporais_medidas_temporais.margem_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Margem LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "margem LY": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_Temporais_medidas_temporais.margem_YoY_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Margem YoY %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "margem YoY %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "margem yoy percentage": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "margem yoy pct": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_Temporais_medidas_temporais.resultado_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Resultado LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado LY": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_Temporais_medidas_temporais.resultado_YoY_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Resultado YoY %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado YoY %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "resultado yoy percentage": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "resultado yoy pct": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.abatimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Abatimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "abatimento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.circulo_farol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Circulo Farol"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "circulo farol": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.comissao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Comissao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "comissao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.custo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Custo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.despesa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Despesa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "despesa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.eixo_x": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Eixo_x"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "eixo x": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Eixo_x": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.eixo_y": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Eixo_y"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "eixo y": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Eixo_y": {
+			            "State": "Generated",
+			            "Type": "Noun",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.faturamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Faturamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.faturamento_ACC": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Faturamento ACC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento ACC": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.faturamento_cartao_subtitulo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Faturamento Cartao Subtitulo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento cartao subtitulo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.faturamento_cartao_titulo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Faturamento Cartao Titulo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento cartao titulo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.faturamento_cartao_titulo_form__cond_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Faturamento Cartao Titulo Form. Cond."
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento cartao titulo form. cond.": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.faturamento_fixo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Faturamento Fixo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento fixo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.impostos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Impostos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "impostos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.maior_valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Maior Valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "maior valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "maior courage": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "maior bravery": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "maior heroism": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "maior fearlessness": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "maior boldness": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "maior gallantry": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "maior lionheartedness": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "maior pluck": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "maior spirit": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "maior nerve": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.margem_cartão_subtitulo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Margem Cartão Subtitulo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "margem cartão subtitulo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.margem_cartão_título": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Margem Cartão Título"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "margem cartão título": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.margem_cartão_título_form__cond_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Margem Cartão Título Form. Cond."
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "margem cartão título form. cond.": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.margem_contribuição": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Margem Contribuição"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "margem contribuição": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.margem_percentual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Margem Percentual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "margem percentual": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.menor_valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Menor Valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "menor valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "menor courage": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "menor bravery": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "menor heroism": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "menor fearlessness": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "menor boldness": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "menor gallantry": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "menor lionheartedness": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "menor pluck": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "menor spirit": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "menor nerve": {
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "State": "Suggested",
+			            "Type": "Noun",
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.meta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Meta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.meta_cor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Meta Cor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meta cor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.porcentagem_meta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Porcentagem Meta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "porcentagem meta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.positivação_clientes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Positivação Clientes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "positivação clientes": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.positivação_produtos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Positivação Produtos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "positivação produtos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.qtde_vendas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Qtde Vendas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtde vendas": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.resultado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Resultado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.resultado_cartão_subtitulo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Resultado Cartão Subtitulo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado cartão subtitulo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.resultado_cartão_título": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Resultado Cartão Título"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado cartão título": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.resultado_cartão_título_form__cond_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Resultado Cartão Título Form. Cond."
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado cartão título form. cond.": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.ultimo_mes_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Ultimo mes ?"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ultimo mes ?": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "v_Medidas_medida.variacao_cor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Variacao Cor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variacao cor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Language": "en-US",
+			  "Relationships": {
+			    "d_calendario_data1_ano_has_d_calendario_data1_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.data1.mê"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario.data1.ano"
+			            }
+			          },
+			          "ID": "anos_have_mê",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.data1.ano"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario.data1.mê"
+			            }
+			          },
+			          "ID": "mê_have_anos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "ID": "mê_are_in_anos",
+			          "Preposition": {
+			            "Object": {
+			              "Role": "d_calendario.data1.ano"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Subject": {
+			              "Role": "d_calendario.data1.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario.data1.ano": {
+			          "Target": {
+			            "Entity": "d_calendario.data1.ano"
+			          }
+			        },
+			        "d_calendario.data1.mê": {
+			          "Target": {
+			            "Entity": "d_calendario.data1.mê"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_data1_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.data1.ano"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario.data1"
+			            }
+			          },
+			          "ID": "data_have_anos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario.data1": {
+			          "Target": {
+			            "Entity": "d_calendario.data1"
+			          }
+			        },
+			        "d_calendario.data1.ano": {
+			          "Target": {
+			            "Entity": "d_calendario.data1.ano"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_data1_has_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.data1.dia"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario.data1"
+			            }
+			          },
+			          "ID": "data_have_dias",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario.data1": {
+			          "Target": {
+			            "Entity": "d_calendario.data1"
+			          }
+			        },
+			        "d_calendario.data1.dia": {
+			          "Target": {
+			            "Entity": "d_calendario.data1.dia"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_data1_has_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.data1.mê"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario.data1"
+			            }
+			          },
+			          "ID": "data_have_mê",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario.data1": {
+			          "Target": {
+			            "Entity": "d_calendario.data1"
+			          }
+			        },
+			        "d_calendario.data1.mê": {
+			          "Target": {
+			            "Entity": "d_calendario.data1.mê"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_data1_mê_has_d_calendario_data1_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.data1.dia"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario.data1.mê"
+			            }
+			          },
+			          "ID": "mê_have_dias",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.data1.mê"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario.data1.dia"
+			            }
+			          },
+			          "ID": "dias_have_mê",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "ID": "dias_are_in_mê",
+			          "Preposition": {
+			            "Object": {
+			              "Role": "d_calendario.data1.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Subject": {
+			              "Role": "d_calendario.data1.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario.data1.dia": {
+			          "Target": {
+			            "Entity": "d_calendario.data1.dia"
+			          }
+			        },
+			        "d_calendario.data1.mê": {
+			          "Target": {
+			            "Entity": "d_calendario.data1.mê"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.ano"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_anos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.ano": {
+			          "Target": {
+			            "Entity": "d_calendario.ano"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_has_data1": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.data1"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_data",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.data1": {
+			          "Target": {
+			            "Entity": "d_calendario.data1"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_has_datas_com_venda": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.datas_com_venda"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_datas_com_venda",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.datas_com_venda": {
+			          "Target": {
+			            "Entity": "d_calendario.datas_com_venda"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_has_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.dia"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_dias",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.dia": {
+			          "Target": {
+			            "Entity": "d_calendario.dia"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_has_id_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.id_data"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_id_data",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.id_data": {
+			          "Target": {
+			            "Entity": "d_calendario.id_data"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_has_mes_abreviado": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.mes_abreviado"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_mes_abreviados",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.mes_abreviado": {
+			          "Target": {
+			            "Entity": "d_calendario.mes_abreviado"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_has_mes_ano_classificação": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.mes_ano_classificação"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_mes_ano_classificaçãos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.mes_ano_classificação": {
+			          "Target": {
+			            "Entity": "d_calendario.mes_ano_classificação"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_has_mesano": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.mesano"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_mesanos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.mesano": {
+			          "Target": {
+			            "Entity": "d_calendario.mesano"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_has_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.mê"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_mê",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.mê": {
+			          "Target": {
+			            "Entity": "d_calendario.mê"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_has_nome_do_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.nome_do_mê"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_nome_do_mê",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.nome_do_mê": {
+			          "Target": {
+			            "Entity": "d_calendario.nome_do_mê"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_has_semestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.semestre"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_semestres",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.semestre": {
+			          "Target": {
+			            "Entity": "d_calendario.semestre"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_calendario_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario.trimestre"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_trimestres",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.trimestre": {
+			          "Target": {
+			            "Entity": "d_calendario.trimestre"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_cliente_has_cidade": {
+			      "Binding": {
+			        "ConceptualEntity": "dClientes"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_cliente.cidade"
+			            },
+			            "Subject": {
+			              "Role": "d_cliente"
+			            }
+			          },
+			          "ID": "d_clientes_have_cidades",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_cliente": {
+			          "Target": {
+			            "Entity": "d_cliente"
+			          }
+			        },
+			        "d_cliente.cidade": {
+			          "Target": {
+			            "Entity": "d_cliente.cidade"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_cliente_has_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "dClientes"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_cliente.cliente"
+			            },
+			            "Subject": {
+			              "Role": "d_cliente"
+			            }
+			          },
+			          "ID": "d_clientes_have_clientes",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_cliente": {
+			          "Target": {
+			            "Entity": "d_cliente"
+			          }
+			        },
+			        "d_cliente.cliente": {
+			          "Target": {
+			            "Entity": "d_cliente.cliente"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_cliente_has_id_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "dClientes"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_cliente.id_cliente"
+			            },
+			            "Subject": {
+			              "Role": "d_cliente"
+			            }
+			          },
+			          "ID": "d_clientes_have_id_clientes",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_cliente": {
+			          "Target": {
+			            "Entity": "d_cliente"
+			          }
+			        },
+			        "d_cliente.id_cliente": {
+			          "Target": {
+			            "Entity": "d_cliente.id_cliente"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_cliente_has_uf": {
+			      "Binding": {
+			        "ConceptualEntity": "dClientes"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_cliente.uf"
+			            },
+			            "Subject": {
+			              "Role": "d_cliente"
+			            }
+			          },
+			          "ID": "d_clientes_have_ufs",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_cliente": {
+			          "Target": {
+			            "Entity": "d_cliente"
+			          }
+			        },
+			        "d_cliente.uf": {
+			          "Target": {
+			            "Entity": "d_cliente.uf"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_pagamento_has_forma_de_pagamento": {
+			      "Binding": {
+			        "ConceptualEntity": "dPagamento"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_pagamento.forma_de_pagamento"
+			            },
+			            "Subject": {
+			              "Role": "d_pagamento"
+			            }
+			          },
+			          "ID": "d_pagamentos_have_forma_de_pagamentos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_pagamento": {
+			          "Target": {
+			            "Entity": "d_pagamento"
+			          }
+			        },
+			        "d_pagamento.forma_de_pagamento": {
+			          "Target": {
+			            "Entity": "d_pagamento.forma_de_pagamento"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_pagamento_has_id_pagamento": {
+			      "Binding": {
+			        "ConceptualEntity": "dPagamento"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_pagamento.id_pagamento"
+			            },
+			            "Subject": {
+			              "Role": "d_pagamento"
+			            }
+			          },
+			          "ID": "d_pagamentos_have_id_pagamentos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_pagamento": {
+			          "Target": {
+			            "Entity": "d_pagamento"
+			          }
+			        },
+			        "d_pagamento.id_pagamento": {
+			          "Target": {
+			            "Entity": "d_pagamento.id_pagamento"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_produto_has_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "dProdutos"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_produto.categoria"
+			            },
+			            "Subject": {
+			              "Role": "d_produto"
+			            }
+			          },
+			          "ID": "d_produtos_have_categorias",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_produto": {
+			          "Target": {
+			            "Entity": "d_produto"
+			          }
+			        },
+			        "d_produto.categoria": {
+			          "Target": {
+			            "Entity": "d_produto.categoria"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_produto_has_id_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "dProdutos"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_produto.id_produto"
+			            },
+			            "Subject": {
+			              "Role": "d_produto"
+			            }
+			          },
+			          "ID": "d_produtos_have_id_produtos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_produto": {
+			          "Target": {
+			            "Entity": "d_produto"
+			          }
+			        },
+			        "d_produto.id_produto": {
+			          "Target": {
+			            "Entity": "d_produto.id_produto"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_produto_has_marca": {
+			      "Binding": {
+			        "ConceptualEntity": "dProdutos"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_produto.marca"
+			            },
+			            "Subject": {
+			              "Role": "d_produto"
+			            }
+			          },
+			          "ID": "d_produtos_have_marcas",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_produto": {
+			          "Target": {
+			            "Entity": "d_produto"
+			          }
+			        },
+			        "d_produto.marca": {
+			          "Target": {
+			            "Entity": "d_produto.marca"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_produto_has_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "dProdutos"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_produto.produto"
+			            },
+			            "Subject": {
+			              "Role": "d_produto"
+			            }
+			          },
+			          "ID": "d_produtos_have_produtos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_produto": {
+			          "Target": {
+			            "Entity": "d_produto"
+			          }
+			        },
+			        "d_produto.produto": {
+			          "Target": {
+			            "Entity": "d_produto.produto"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_produto_has_subcategoria": {
+			      "Binding": {
+			        "ConceptualEntity": "dProdutos"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_produto.subcategoria"
+			            },
+			            "Subject": {
+			              "Role": "d_produto"
+			            }
+			          },
+			          "ID": "d_produtos_have_subcategorias",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_produto": {
+			          "Target": {
+			            "Entity": "d_produto"
+			          }
+			        },
+			        "d_produto.subcategoria": {
+			          "Target": {
+			            "Entity": "d_produto.subcategoria"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_status_has_id_status": {
+			      "Binding": {
+			        "ConceptualEntity": "dStatus"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_status.id_status"
+			            },
+			            "Subject": {
+			              "Role": "d_status"
+			            }
+			          },
+			          "ID": "d_statuses_have_id_statuses",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_status": {
+			          "Target": {
+			            "Entity": "d_status"
+			          }
+			        },
+			        "d_status.id_status": {
+			          "Target": {
+			            "Entity": "d_status.id_status"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_status_has_status": {
+			      "Binding": {
+			        "ConceptualEntity": "dStatus"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_status.status"
+			            },
+			            "Subject": {
+			              "Role": "d_status"
+			            }
+			          },
+			          "ID": "d_statuses_have_statuses",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_status": {
+			          "Target": {
+			            "Entity": "d_status"
+			          }
+			        },
+			        "d_status.status": {
+			          "Target": {
+			            "Entity": "d_status.status"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_unidade_has_id_unidade": {
+			      "Binding": {
+			        "ConceptualEntity": "dUnidades"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_unidade.id_unidade"
+			            },
+			            "Subject": {
+			              "Role": "d_unidade"
+			            }
+			          },
+			          "ID": "d_unidades_have_id_unidades",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_unidade": {
+			          "Target": {
+			            "Entity": "d_unidade"
+			          }
+			        },
+			        "d_unidade.id_unidade": {
+			          "Target": {
+			            "Entity": "d_unidade.id_unidade"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_unidade_has_unidade": {
+			      "Binding": {
+			        "ConceptualEntity": "dUnidades"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_unidade.unidade"
+			            },
+			            "Subject": {
+			              "Role": "d_unidade"
+			            }
+			          },
+			          "ID": "d_unidades_have_unidades",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_unidade": {
+			          "Target": {
+			            "Entity": "d_unidade"
+			          }
+			        },
+			        "d_unidade.unidade": {
+			          "Target": {
+			            "Entity": "d_unidade.unidade"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_vendedore_has_URL_foto": {
+			      "Binding": {
+			        "ConceptualEntity": "dVendedores"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_vendedore.URL_foto"
+			            },
+			            "Subject": {
+			              "Role": "d_vendedore"
+			            }
+			          },
+			          "ID": "d_vendedores_have_URL_fotos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_vendedore": {
+			          "Target": {
+			            "Entity": "d_vendedore"
+			          }
+			        },
+			        "d_vendedore.URL_foto": {
+			          "Target": {
+			            "Entity": "d_vendedore.URL_foto"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_vendedore_has_URL_foto_corpo": {
+			      "Binding": {
+			        "ConceptualEntity": "dVendedores"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_vendedore.URL_foto_corpo"
+			            },
+			            "Subject": {
+			              "Role": "d_vendedore"
+			            }
+			          },
+			          "ID": "d_vendedores_have_URL_foto_corpos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_vendedore": {
+			          "Target": {
+			            "Entity": "d_vendedore"
+			          }
+			        },
+			        "d_vendedore.URL_foto_corpo": {
+			          "Target": {
+			            "Entity": "d_vendedore.URL_foto_corpo"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_vendedore_has_gerente": {
+			      "Binding": {
+			        "ConceptualEntity": "dVendedores"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_vendedore.gerente"
+			            },
+			            "Subject": {
+			              "Role": "d_vendedore"
+			            }
+			          },
+			          "ID": "d_vendedores_have_gerentes",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_vendedore": {
+			          "Target": {
+			            "Entity": "d_vendedore"
+			          }
+			        },
+			        "d_vendedore.gerente": {
+			          "Target": {
+			            "Entity": "d_vendedore.gerente"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_vendedore_has_id_vendedor": {
+			      "Binding": {
+			        "ConceptualEntity": "dVendedores"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_vendedore.id_vendedor"
+			            },
+			            "Subject": {
+			              "Role": "d_vendedore"
+			            }
+			          },
+			          "ID": "d_vendedores_have_id_vendedors",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_vendedore": {
+			          "Target": {
+			            "Entity": "d_vendedore"
+			          }
+			        },
+			        "d_vendedore.id_vendedor": {
+			          "Target": {
+			            "Entity": "d_vendedore.id_vendedor"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "d_vendedore_has_vendedor": {
+			      "Binding": {
+			        "ConceptualEntity": "dVendedores"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_vendedore.vendedor"
+			            },
+			            "Subject": {
+			              "Role": "d_vendedore"
+			            }
+			          },
+			          "ID": "d_vendedores_have_vendedors",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_vendedore": {
+			          "Target": {
+			            "Entity": "d_vendedore"
+			          }
+			        },
+			        "d_vendedore.vendedor": {
+			          "Target": {
+			            "Entity": "d_vendedore.vendedor"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_meta_has_d_vendedore": {
+			      "Binding": {
+			        "ConceptualEntity": "fMetas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_vendedore"
+			            },
+			            "Subject": {
+			              "Role": "f_meta"
+			            }
+			          },
+			          "ID": "f_meta_have_d_vendedores",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_meta"
+			            },
+			            "Subject": {
+			              "Role": "d_vendedore"
+			            }
+			          },
+			          "ID": "d_vendedores_have_f_meta",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_vendedore": {
+			          "Target": {
+			            "Entity": "d_vendedore"
+			          }
+			        },
+			        "f_meta": {
+			          "Target": {
+			            "Entity": "f_meta"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_meta_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "fMetas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_meta.data"
+			            },
+			            "Subject": {
+			              "Role": "f_meta"
+			            }
+			          },
+			          "ID": "f_meta_have_data",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_meta": {
+			          "Target": {
+			            "Entity": "f_meta"
+			          }
+			        },
+			        "f_meta.data": {
+			          "Target": {
+			            "Entity": "f_meta.data"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_meta_has_v_Medidas_medida_meta": {
+			      "Binding": {
+			        "ConceptualEntity": "fMetas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.meta"
+			            },
+			            "Subject": {
+			              "Role": "f_meta"
+			            }
+			          },
+			          "ID": "f_meta_have_meta",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_meta": {
+			          "Target": {
+			            "Entity": "f_meta"
+			          }
+			        },
+			        "v_Medidas_medida.meta": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.meta"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_meta_has_v_Medidas_medida_porcentagem_meta": {
+			      "Binding": {
+			        "ConceptualEntity": "fMetas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.porcentagem_meta"
+			            },
+			            "Subject": {
+			              "Role": "f_meta"
+			            }
+			          },
+			          "ID": "f_meta_have_porcentagem_meta",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_meta": {
+			          "Target": {
+			            "Entity": "f_meta"
+			          }
+			        },
+			        "v_Medidas_medida.porcentagem_meta": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.porcentagem_meta"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_meta_has_valor_meta": {
+			      "Binding": {
+			        "ConceptualEntity": "fMetas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_meta.valor_meta"
+			            },
+			            "Subject": {
+			              "Role": "f_meta"
+			            }
+			          },
+			          "ID": "f_meta_have_valor_meta",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_meta": {
+			          "Target": {
+			            "Entity": "f_meta"
+			          }
+			        },
+			        "f_meta.valor_meta": {
+			          "Target": {
+			            "Entity": "f_meta.valor_meta"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_comissão_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda.comissão_unit"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_comissão_units",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "f_venda.comissão_unit": {
+			          "Target": {
+			            "Entity": "f_venda.comissão_unit"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_custo_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda.custo_unit"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_custo_units",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "f_venda.custo_unit": {
+			          "Target": {
+			            "Entity": "f_venda.custo_unit"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_d_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_calendario"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_d_calendarios",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda"
+			            },
+			            "Subject": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "ID": "d_calendarios_have_f_venda",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_d_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_cliente"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_d_clientes",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda"
+			            },
+			            "Subject": {
+			              "Role": "d_cliente"
+			            }
+			          },
+			          "ID": "d_clientes_have_f_venda",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_cliente": {
+			          "Target": {
+			            "Entity": "d_cliente"
+			          }
+			        },
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_d_pagamento": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_pagamento"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_d_pagamentos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda"
+			            },
+			            "Subject": {
+			              "Role": "d_pagamento"
+			            }
+			          },
+			          "ID": "d_pagamentos_have_f_venda",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_pagamento": {
+			          "Target": {
+			            "Entity": "d_pagamento"
+			          }
+			        },
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_d_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_produto"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_d_produtos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda"
+			            },
+			            "Subject": {
+			              "Role": "d_produto"
+			            }
+			          },
+			          "ID": "d_produtos_have_f_venda",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_produto": {
+			          "Target": {
+			            "Entity": "d_produto"
+			          }
+			        },
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_d_status": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_status"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_d_statuses",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda"
+			            },
+			            "Subject": {
+			              "Role": "d_status"
+			            }
+			          },
+			          "ID": "d_statuses_have_f_venda",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_status": {
+			          "Target": {
+			            "Entity": "d_status"
+			          }
+			        },
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_d_unidade": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_unidade"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_d_unidades",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda"
+			            },
+			            "Subject": {
+			              "Role": "d_unidade"
+			            }
+			          },
+			          "ID": "d_unidades_have_f_venda",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_unidade": {
+			          "Target": {
+			            "Entity": "d_unidade"
+			          }
+			        },
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_d_vendedore": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "d_vendedore"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_d_vendedores",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda"
+			            },
+			            "Subject": {
+			              "Role": "d_vendedore"
+			            }
+			          },
+			          "ID": "d_vendedores_have_f_venda",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "d_vendedore": {
+			          "Target": {
+			            "Entity": "d_vendedore"
+			          }
+			        },
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_data_envio": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda.data_envio"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_data_envios",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "f_venda.data_envio": {
+			          "Target": {
+			            "Entity": "f_venda.data_envio"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_data_pedido": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda.data_pedido"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_data_pedidos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "f_venda.data_pedido": {
+			          "Target": {
+			            "Entity": "f_venda.data_pedido"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_despesa_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda.despesa_unit"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_despesa_units",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "f_venda.despesa_unit": {
+			          "Target": {
+			            "Entity": "f_venda.despesa_unit"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_impostos_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda.impostos_unit"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_impostos_units",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "f_venda.impostos_unit": {
+			          "Target": {
+			            "Entity": "f_venda.impostos_unit"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_num_venda": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda.num_venda"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_num_venda",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "f_venda.num_venda": {
+			          "Target": {
+			            "Entity": "f_venda.num_venda"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_qtde": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda.qtde"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_qtdes",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "f_venda.qtde": {
+			          "Target": {
+			            "Entity": "f_venda.qtde"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_Temporais_medidas_temporais_faturamento_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_Temporais_medidas_temporais.faturamento_LY"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_faturamento_LY",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_Temporais_medidas_temporais.faturamento_LY": {
+			          "Target": {
+			            "Entity": "v_Medidas_Temporais_medidas_temporais.faturamento_LY"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_Temporais_medidas_temporais_faturamento_YoY_": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_Temporais_medidas_temporais.faturamento_YoY_"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_faturamento_YoY_",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_Temporais_medidas_temporais.faturamento_YoY_": {
+			          "Target": {
+			            "Entity": "v_Medidas_Temporais_medidas_temporais.faturamento_YoY_"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_Temporais_medidas_temporais_faturamento_acumulado": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_Temporais_medidas_temporais.faturamento_acumulado"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_faturamento_acumulado",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_Temporais_medidas_temporais.faturamento_acumulado": {
+			          "Target": {
+			            "Entity": "v_Medidas_Temporais_medidas_temporais.faturamento_acumulado"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_Temporais_medidas_temporais_margem_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_Temporais_medidas_temporais.margem_LY"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_margem_LY",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_Temporais_medidas_temporais.margem_LY": {
+			          "Target": {
+			            "Entity": "v_Medidas_Temporais_medidas_temporais.margem_LY"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_Temporais_medidas_temporais_margem_YoY_": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_Temporais_medidas_temporais.margem_YoY_"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_margem_YoY_",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_Temporais_medidas_temporais.margem_YoY_": {
+			          "Target": {
+			            "Entity": "v_Medidas_Temporais_medidas_temporais.margem_YoY_"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_Temporais_medidas_temporais_resultado_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_Temporais_medidas_temporais.resultado_LY"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_resultado_LY",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_Temporais_medidas_temporais.resultado_LY": {
+			          "Target": {
+			            "Entity": "v_Medidas_Temporais_medidas_temporais.resultado_LY"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_Temporais_medidas_temporais_resultado_YoY_": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_Temporais_medidas_temporais.resultado_YoY_"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_resultado_YoY_",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_Temporais_medidas_temporais.resultado_YoY_": {
+			          "Target": {
+			            "Entity": "v_Medidas_Temporais_medidas_temporais.resultado_YoY_"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_abatimento": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.abatimento"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_abatimento",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.abatimento": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.abatimento"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_comissao": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.comissao"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_comissao",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.comissao": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.comissao"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_custo": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.custo"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_custo",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.custo": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.custo"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_despesa": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.despesa"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_despesa",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.despesa": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.despesa"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_eixo_x": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.eixo_x"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_eixo_x",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.eixo_x": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.eixo_x"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_eixo_y": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.eixo_y"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_eixo_y",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.eixo_y": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.eixo_y"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_faturamento": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.faturamento"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_faturamento",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.faturamento": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.faturamento"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_faturamento_ACC": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.faturamento_ACC"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_faturamento_ACC",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.faturamento_ACC": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.faturamento_ACC"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_faturamento_cartao_titulo": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.faturamento_cartao_titulo"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_faturamento_cartao_titulo",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.faturamento_cartao_titulo": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.faturamento_cartao_titulo"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_faturamento_fixo": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.faturamento_fixo"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_faturamento_fixo",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.faturamento_fixo": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.faturamento_fixo"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_impostos": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.impostos"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_impostos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.impostos": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.impostos"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_margem_cartão_título": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.margem_cartão_título"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_margem_cartão_título",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.margem_cartão_título": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.margem_cartão_título"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_margem_contribuição": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.margem_contribuição"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_margem_contribuição",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.margem_contribuição": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.margem_contribuição"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_margem_percentual": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.margem_percentual"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_margem_percentual",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.margem_percentual": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.margem_percentual"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_porcentagem_meta": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.porcentagem_meta"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_porcentagem_meta",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.porcentagem_meta": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.porcentagem_meta"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_positivação_clientes": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.positivação_clientes"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_positivação_clientes",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.positivação_clientes": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.positivação_clientes"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_positivação_produtos": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.positivação_produtos"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_positivação_produtos",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.positivação_produtos": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.positivação_produtos"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_qtde_vendas": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.qtde_vendas"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_qtde_vendas",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.qtde_vendas": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.qtde_vendas"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_resultado": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.resultado"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_resultado",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.resultado": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.resultado"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_v_Medidas_medida_resultado_cartão_título": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.resultado_cartão_título"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_resultado_cartão_título",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "v_Medidas_medida.resultado_cartão_título": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.resultado_cartão_título"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "f_venda_has_valor_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "fVendas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "f_venda.valor_unit"
+			            },
+			            "Subject": {
+			              "Role": "f_venda"
+			            }
+			          },
+			          "ID": "f_venda_have_valor_units",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "f_venda.valor_unit": {
+			          "Target": {
+			            "Entity": "f_venda.valor_unit"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "v_Medidas_medida_has_circulo_farol": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.circulo_farol"
+			            },
+			            "Subject": {
+			              "Role": "v_Medidas_medida"
+			            }
+			          },
+			          "ID": "Phrasing_medidas_have_circulo_farol",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "v_Medidas_medida": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida"
+			          }
+			        },
+			        "v_Medidas_medida.circulo_farol": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.circulo_farol"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "v_Medidas_medida_has_faturamento_cartao_subtitulo": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.faturamento_cartao_subtitulo"
+			            },
+			            "Subject": {
+			              "Role": "v_Medidas_medida"
+			            }
+			          },
+			          "ID": "Phrasing_medidas_have_faturamento_cartao_subtitulo",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "v_Medidas_medida": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida"
+			          }
+			        },
+			        "v_Medidas_medida.faturamento_cartao_subtitulo": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.faturamento_cartao_subtitulo"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "v_Medidas_medida_has_faturamento_cartao_titulo_form__cond_": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.faturamento_cartao_titulo_form__cond_"
+			            },
+			            "Subject": {
+			              "Role": "v_Medidas_medida"
+			            }
+			          },
+			          "ID": "Phrasing_medidas_have_faturamento_cartao_titulo_form__cond_",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "v_Medidas_medida": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida"
+			          }
+			        },
+			        "v_Medidas_medida.faturamento_cartao_titulo_form__cond_": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.faturamento_cartao_titulo_form__cond_"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "v_Medidas_medida_has_maior_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.maior_valor"
+			            },
+			            "Subject": {
+			              "Role": "v_Medidas_medida"
+			            }
+			          },
+			          "ID": "Phrasing_medidas_have_maior_valor",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "v_Medidas_medida": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida"
+			          }
+			        },
+			        "v_Medidas_medida.maior_valor": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.maior_valor"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "v_Medidas_medida_has_margem_cartão_subtitulo": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.margem_cartão_subtitulo"
+			            },
+			            "Subject": {
+			              "Role": "v_Medidas_medida"
+			            }
+			          },
+			          "ID": "Phrasing_medidas_have_margem_cartão_subtitulo",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "v_Medidas_medida": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida"
+			          }
+			        },
+			        "v_Medidas_medida.margem_cartão_subtitulo": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.margem_cartão_subtitulo"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "v_Medidas_medida_has_margem_cartão_título_form__cond_": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.margem_cartão_título_form__cond_"
+			            },
+			            "Subject": {
+			              "Role": "v_Medidas_medida"
+			            }
+			          },
+			          "ID": "Phrasing_medidas_have_margem_cartão_título_form__cond_",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "v_Medidas_medida": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida"
+			          }
+			        },
+			        "v_Medidas_medida.margem_cartão_título_form__cond_": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.margem_cartão_título_form__cond_"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "v_Medidas_medida_has_menor_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.menor_valor"
+			            },
+			            "Subject": {
+			              "Role": "v_Medidas_medida"
+			            }
+			          },
+			          "ID": "Phrasing_medidas_have_menor_valor",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "v_Medidas_medida": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida"
+			          }
+			        },
+			        "v_Medidas_medida.menor_valor": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.menor_valor"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "v_Medidas_medida_has_meta_cor": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.meta_cor"
+			            },
+			            "Subject": {
+			              "Role": "v_Medidas_medida"
+			            }
+			          },
+			          "ID": "Phrasing_medidas_have_meta_cor",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "v_Medidas_medida": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida"
+			          }
+			        },
+			        "v_Medidas_medida.meta_cor": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.meta_cor"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "v_Medidas_medida_has_resultado_cartão_subtitulo": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.resultado_cartão_subtitulo"
+			            },
+			            "Subject": {
+			              "Role": "v_Medidas_medida"
+			            }
+			          },
+			          "ID": "Phrasing_medidas_have_resultado_cartão_subtitulo",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "v_Medidas_medida": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida"
+			          }
+			        },
+			        "v_Medidas_medida.resultado_cartão_subtitulo": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.resultado_cartão_subtitulo"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "v_Medidas_medida_has_resultado_cartão_título_form__cond_": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.resultado_cartão_título_form__cond_"
+			            },
+			            "Subject": {
+			              "Role": "v_Medidas_medida"
+			            }
+			          },
+			          "ID": "Phrasing_medidas_have_resultado_cartão_título_form__cond_",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "v_Medidas_medida": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida"
+			          }
+			        },
+			        "v_Medidas_medida.resultado_cartão_título_form__cond_": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.resultado_cartão_título_form__cond_"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "v_Medidas_medida_has_ultimo_mes_": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.ultimo_mes_"
+			            },
+			            "Subject": {
+			              "Role": "v_Medidas_medida"
+			            }
+			          },
+			          "ID": "Phrasing_medidas_have_ultimo_mes_",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "v_Medidas_medida": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida"
+			          }
+			        },
+			        "v_Medidas_medida.ultimo_mes_": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.ultimo_mes_"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "v_Medidas_medida_has_variacao_cor": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Object": {
+			              "Role": "v_Medidas_medida.variacao_cor"
+			            },
+			            "Subject": {
+			              "Role": "v_Medidas_medida"
+			            }
+			          },
+			          "ID": "Phrasing_medidas_have_variacao_cor",
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ],
+			      "Roles": {
+			        "v_Medidas_medida": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida"
+			          }
+			        },
+			        "v_Medidas_medida.variacao_cor": {
+			          "Target": {
+			            "Entity": "v_Medidas_medida.variacao_cor"
+			          }
+			        }
+			      },
+			      "State": "Generated"
+			    }
+			  },
+			  "Version": "3.5.0"
+			}
+		contentType: json
+

@@ -1,0 +1,60 @@
+table fMetas
+	lineageTag: c9b52119-f323-474f-8167-8d638ae40b05
+
+	column Data
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 2ca1ce36-471a-4ea5-ad7b-5ed6ef1395f7
+		summarizeBy: none
+		sourceColumn: Data
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Id Vendedor'
+		dataType: int64
+		formatString: 0
+		lineageTag: 049a2ede-a2b9-4ecd-9acc-4d401f3bf3be
+		summarizeBy: none
+		sourceColumn: Id Vendedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Valor Meta'
+		dataType: decimal
+		lineageTag: 6a697f6e-26e3-4e7e-a9f7-ff0a67cb6fee
+		summarizeBy: sum
+		sourceColumn: Valor Meta
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fMetas-fd5e8097-ba6d-4513-950c-25f26199ee4e = m
+		mode: import
+		queryGroup: Fatos
+		source =
+				let
+				    Fonte = Folder.Files(Caminho_Meta),
+				    LinhasContendoArquivosExcel = Table.SelectRows(Fonte, each ([Extension] = ".xlsx")),
+				    ExcluirArquivosAbertos = Table.SelectRows(LinhasContendoArquivosExcel, each not Text.StartsWith([Name], "~")),
+				    PermancerColunas_Content_Name = Table.SelectColumns(ExcluirArquivosAbertos,{"Content", "Name"}),
+				    ColunaExtracaoAdicionada = Table.AddColumn(PermancerColunas_Content_Name, "Extração", each Excel.Workbook([Content])),
+				    ColunaContentRemovida = Table.RemoveColumns(ColunaExtracaoAdicionada,{"Content"}),
+				    CampoDadosExtracao = Table.ExpandTableColumn(ColunaContentRemovida, "Extração", {"Data"}, {"Data"}),
+				    ColunaDataExpandida = Table.ExpandTableColumn(CampoDadosExtracao, "Data", {"Column1", "Column2", "Column3", "Column4", "Column5", "Column6", "Column7", "Column8", "Column9", "Column10", "Column11", "Column12", "Column13", "Column14", "Column15"}, {"Column1", "Column2", "Column3", "Column4", "Column5", "Column6", "Column7", "Column8", "Column9", "Column10", "Column11", "Column12", "Column13", "Column14", "Column15"}),
+				    CabecalhoPromovido = Table.PromoteHeaders(ColunaDataExpandida, [PromoteAllScalars=true]),
+				    RemoverLinhasCabecalhos = Table.SelectRows(CabecalhoPromovido, each ([Id Vendedor] <> null and [Id Vendedor] <> "Id Vendedor")),
+				    RemoverColunaVazia = Table.RemoveColumns(RemoverLinhasCabecalhos,{"Vendedor", "Column16"}),
+				    UnpivotarColunas_Meses_Valor = Table.UnpivotOtherColumns(RemoverColunaVazia, {"Meta 2018.xlsx", "Id Vendedor"}, "Mes", "Valor Meta"),
+				    ExtrairAno = Table.TransformColumns(UnpivotarColunas_Meses_Valor, {{"Meta 2018.xlsx", each Text.BetweenDelimiters(_, " ", ".x"), type text}}),
+				    MesclarAno_Meses = Table.CombineColumns(ExtrairAno,{"Mes", "Meta 2018.xlsx"},Combiner.CombineTextByDelimiter("-", QuoteStyle.None),"Data"),
+				    TipagemDados = Table.TransformColumnTypes(MesclarAno_Meses,{{"Data", type date}, {"Id Vendedor", Int64.Type}, {"Valor Meta", Currency.Type}})
+				in
+				    TipagemDados
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

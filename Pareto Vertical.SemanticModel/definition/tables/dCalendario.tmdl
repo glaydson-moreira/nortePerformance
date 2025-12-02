@@ -1,0 +1,159 @@
+table dCalendario
+	lineageTag: 9205a3a9-0c85-4cbc-8b36-d833f354a3b7
+
+	column Ano
+		dataType: int64
+		formatString: 0
+		lineageTag: e685d16a-2d74-45ca-8f91-6b8e085d7827
+		summarizeBy: sum
+		sourceColumn: Ano
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nome do Mês'
+		dataType: string
+		lineageTag: b0683ab6-bd25-4140-ac0d-562fbfbaa49c
+		summarizeBy: none
+		sourceColumn: Nome do Mês
+		sortByColumn: Mês
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mês
+		dataType: int64
+		formatString: 0
+		lineageTag: 1b08e45e-32d0-4bf6-a88d-6ef3fe812644
+		summarizeBy: sum
+		sourceColumn: Mês
+
+		annotation SummarizationSetBy = Automatic
+
+	column Dia
+		dataType: int64
+		formatString: 0
+		lineageTag: 8d4e56cc-a822-49d4-96bb-cf63fc32004a
+		summarizeBy: sum
+		sourceColumn: Dia
+
+		annotation SummarizationSetBy = Automatic
+
+	column Semestre
+		dataType: string
+		lineageTag: 9fcb30e5-2297-458f-a629-ae32ea5aa0aa
+		summarizeBy: none
+		sourceColumn: Semestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre
+		dataType: string
+		lineageTag: d1889e7e-45ab-4773-8ad8-74eb51ad8a01
+		summarizeBy: none
+		sourceColumn: Trimestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mes Abreviado'
+		dataType: string
+		lineageTag: a11d7992-ada8-4f21-a470-50e0ea173b5e
+		summarizeBy: none
+		sourceColumn: Mes Abreviado
+		sortByColumn: Mês
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mes-Ano
+		dataType: string
+		lineageTag: 3e1ebe06-bd3a-4e26-a647-f89f593f6c83
+		summarizeBy: none
+		sourceColumn: Mes-Ano
+		sortByColumn: 'Mes Ano Classificação'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mes Ano Classificação'
+		dataType: int64
+		formatString: 0
+		lineageTag: 6bbb9b64-c988-4299-b0bc-769d46933278
+		summarizeBy: sum
+		sourceColumn: Mes Ano Classificação
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Datas com Venda' = ```
+			
+			   dCalendario[Id Data] <= MAX(fVendas[Data Pedido])
+			```
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: d63afdaa-3d86-4471-a6ea-3dec8accb14b
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Id Data'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 3a15f3ef-7e05-497d-8cdb-9c8bb0b4ade2
+		summarizeBy: none
+		sourceColumn: Id Data
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column MesPriLetra = LEFT( dCalendario[Mes Abreviado] )
+		lineageTag: 17607a00-4339-4f3f-85b6-9d853bb052f8
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy Data
+		lineageTag: 438339a9-4afa-4472-8426-f68cd1439e07
+
+		level Ano
+			lineageTag: de187990-0cce-4293-89d6-36caed74ff37
+			column: Ano
+
+		level Mês
+			lineageTag: 4f2f0ffe-8e03-4d57-bb75-e2e0be2710fe
+			column: 'Mes Abreviado'
+
+		level Dia
+			lineageTag: e2c8a711-3907-491b-a6b2-0b741b61e75a
+			column: Dia
+
+	partition dCalendario-0195bc19-d31b-4cad-ae3d-1c98e2e5f713 = m
+		mode: import
+		queryGroup: Dimensões
+		source = ```
+				let
+				        
+				    Fonte = List.Dates(#date(2018, 1, 1), 1461 , #duration(1, 0, 0, 0)),
+				    ConverterListaParaTabela = Table.FromList(Fonte, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+				    
+				    ColunaData = Table.TransformColumnTypes(Table.RenameColumns(ConverterListaParaTabela,{{"Column1", "Data"}}),{{"Data", type date}}),
+				    ColunaAno = Table.AddColumn(ColunaData, "Ano", each Date.Year([Data]), Int64.Type),
+				    ColunaNomeMes = Table.AddColumn(ColunaAno, "Nome do Mês", each Date.MonthName([Data]), type text),
+				    PriMaiusculaNomeMes = Table.TransformColumns(ColunaNomeMes,{{"Nome do Mês", Text.Proper, type text}}),
+				    ColunaNomeMesAbreviado = Table.AddColumn(PriMaiusculaNomeMes, "Mes Abreviado", each Text.Start([Nome do Mês], 3), type text),
+				    ColunaNumeroMes = Table.AddColumn(ColunaNomeMesAbreviado, "Mês", each Date.Month([Data]), Int64.Type),
+				    ColunaDia = Table.AddColumn(ColunaNumeroMes, "Dia", each Date.Day([Data]), Int64.Type),
+				    ColunaSemestre = Table.AddColumn(ColunaDia, "Semestre", each if [Mês] <= 6 then "S1" else "S2", type text),
+				    ColunaTrimestre = Table.AddColumn(ColunaSemestre, "Trimestre", each if [Mês] <= 3 then "T1" else if [Mês] <= 6 then "T2" else if [Mês] <= 9 then "T3" else "T4", type text),
+				    ColunaMesAno = Table.AddColumn(ColunaTrimestre, "Mes-Ano", each Text.Combine({[Mes Abreviado], "-", Text.From([Ano], "pt-BR")}), type text),
+				    ColunaMesAnoClassificacao = Table.AddColumn(ColunaMesAno, "Mes Ano Classificação", each [Ano] * 100 + [Mês], Int64.Type ),
+				    ColunaDataRenomeada = Table.RenameColumns(ColunaMesAnoClassificacao,{{"Data", "Id Data"}})
+				in
+				    ColunaDataRenomeada
+				```
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

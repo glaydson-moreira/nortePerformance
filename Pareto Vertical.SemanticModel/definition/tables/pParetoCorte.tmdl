@@ -1,0 +1,35 @@
+table pParetoCorte
+	lineageTag: bc58c4da-37dd-4dad-a032-ddf5fdb2d5b9
+
+	measure 'Pareto Corte' = SELECTEDVALUE('pParetoCorte'[pParetoCorte], 0.8 )
+		formatString: 0%;-0%;0%
+		lineageTag: 08205c0d-9300-4465-b555-10e4a84fd9e7
+
+	measure 'Pareto Corte Texto' = ```
+			
+			    FORMAT(
+			        [Pareto Corte],
+			        "#%"
+			    )
+			```
+		lineageTag: 0ff1a74b-2874-4f3f-849b-7fb24c3f3df6
+
+	column pParetoCorte
+		formatString: 0%;-0%;0%
+		lineageTag: f93ab6be-8064-4874-a144-71a11bfb6820
+		summarizeBy: none
+		sourceColumn: [Value]
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 0
+				}
+
+		annotation SummarizationSetBy = User
+
+	partition pParetoCorte = calculated
+		mode: import
+		source = GENERATESERIES(0.3, 0.91, 0.05)
+
+	annotation PBI_Id = 6f7bb18d33494a7fa159e382ccd9074c
+
