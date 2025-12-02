@@ -1010,6 +1010,16 @@ table _Medidas
 		displayFolder: Tooltips
 		lineageTag: 4cdebc91-d1ec-4245-bcb8-f813d3bfbb55
 
+	measure 'Novo repartimento' = ```
+			
+			    [Custo] + [Despesa] + [Impostos] + [Comissao]
+			```
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		displayFolder: _Principais
+		lineageTag: 28e58726-1697-45f4-8f86-b2282b0fdb7b
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
 	partition _Medidas-332540c9-11b5-4161-9242-ae9d094a8fc8 = m
 		mode: import
 		source =
